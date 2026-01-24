@@ -23,7 +23,6 @@ public class EmployeeController {
     @PostMapping
     public ResponseEntity<EmployeeDto> createEmployee(@RequestBody EmployeeDto employeeDto){
         EmployeeDto savedEmployee = employeeService.createEmployee(employeeDto);
-	System.out.println("testing for email"
         return new ResponseEntity<>(savedEmployee,HttpStatus.CREATED);
     }
 
