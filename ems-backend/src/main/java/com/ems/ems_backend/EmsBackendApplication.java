@@ -8,7 +8,7 @@ public class EmsBackendApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EmsBackendApplication.class, args);
-		System.out.println("Added For Pipeline Testing2");
+		System.out.println("Added For Pipeline Testing 3.0");
 	}
 
 }
